@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archive>
+    <dir sourceOnDisk="C:\Users\wnirm\eclipse-workspace\PcGlovo\PcGlovoEAR\src\main\application" targetInArchive="/"/>
+    <file sourceOnDisk="C:\Users\wnirm\.m2\repository\it\pcglovo\PcGlovoFE\0.0.1-SNAPSHOT\PcGlovoFE-0.0.1-SNAPSHOT.war" targetInArchive="/PcGlovoFE.war"/>
+    <file sourceOnDisk="C:\Users\wnirm\eclipse-workspace\PcGlovo\PcGlovoEAR\target\tmp\META-INF\MANIFEST.MF" targetInArchive="/META-INF/MANIFEST.MF"/>
+</archive>

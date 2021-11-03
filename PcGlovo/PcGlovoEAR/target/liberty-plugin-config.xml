@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<liberty-plugin-config>
+    <installDirectory>C:\Users\wnirm\eclipse-workspace\PcGlovo\PcGlovoEAR\target\liberty\wlp</installDirectory>
+    <serverDirectory>C:\Users\wnirm\eclipse-workspace\PcGlovo\PcGlovoEAR\target\liberty\wlp\usr\servers\defaultServer</serverDirectory>
+    <userDirectory>C:\Users\wnirm\eclipse-workspace\PcGlovo\PcGlovoEAR\target\liberty\wlp\usr</userDirectory>
+    <serverOutputDirectory>C:\Users\wnirm\eclipse-workspace\PcGlovo\PcGlovoEAR\target\liberty\wlp\usr\servers\defaultServer</serverOutputDirectory>
+    <serverName>defaultServer</serverName>
+    <configDirectory>C:\Users\wnirm\eclipse-workspace\PcGlovo\PcGlovoEAR\src\main\liberty\config</configDirectory>
+    <appsDirectory>dropins</appsDirectory>
+    <looseApplication>true</looseApplication>
+    <stripVersion>false</stripVersion>
+    <installAppPackages>project</installAppPackages>
+    <applicationFilename>PcGlovoEAR.ear.xml</applicationFilename>
+    <assemblyArtifact>
+        <groupId>io.openliberty</groupId>
+        <artifactId>openliberty-kernel</artifactId>
+        <version>21.0.0.11</version>
+        <type>zip</type>
+    </assemblyArtifact>
+    <assemblyArchive>C:\Users\wnirm\.m2\repository\io\openliberty\openliberty-kernel\21.0.0.11\openliberty-kernel-21.0.0.11.zip</assemblyArchive>
+    <assemblyInstallDirectory>C:\Users\wnirm\eclipse-workspace\PcGlovo\PcGlovoEAR\target\liberty</assemblyInstallDirectory>
+    <refresh>false</refresh>
+    <installAppsConfigDropins>C:\Users\wnirm\eclipse-workspace\PcGlovo\PcGlovoEAR\target\liberty\wlp\usr\servers\defaultServer\configDropins\defaults\install_apps_configuration_1491924271.xml</installAppsConfigDropins>
+    <projectType>ear</projectType>
+    <aggregatorParentId>PcGlovo</aggregatorParentId>
+    <aggregatorParentBasedir>C:\Users\wnirm\eclipse-workspace\PcGlovo</aggregatorParentBasedir>
+    <projectCompileDependency>it.pcglovo:PcGlovoFE:0.0.1-SNAPSHOT</projectCompileDependency>
+</liberty-plugin-config>

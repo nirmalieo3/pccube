@@ -1,0 +1,40 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>it.pcglovo</groupId>
+    <artifactId>PcGlovo</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>PcGlovoBE</artifactId>
+  <!-- TESTING -->
+  <dependencies>
+		<dependency>
+			<artifactId>javax.persistence-api</artifactId>
+			<groupId>javax.persistence</groupId>
+			<version>${persistence.version}</version>
+		</dependency>
+		<dependency>
+			<artifactId>spring-beans</artifactId>
+			<groupId>org.springframework</groupId>
+			<version>${spring.version}</version>
+		</dependency>
+		<dependency>
+			<artifactId>spring-context-support</artifactId>
+			<groupId>org.springframework</groupId>
+			<version>${spring.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.data</groupId>
+			<artifactId>spring-data-jpa</artifactId>
+			<version>${spring.data.version}</version>
+			<type>jar</type>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<artifactId>hibernate-core</artifactId>
+			<groupId>org.hibernate</groupId>
+			<version>${hibernate-core.version}</version>
+		</dependency>
+	</dependencies>
+	 <!-- END TESTING -->
+</project>

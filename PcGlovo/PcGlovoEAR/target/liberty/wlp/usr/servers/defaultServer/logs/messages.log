@@ -1,0 +1,29 @@
+********************************************************************************
+product = Open Liberty 21.0.0.11 (wlp-1.0.58.cl211120211019-1900)
+wlp.install.dir = C:/Users/wnirm/eclipse-workspace/PcGlovo/PcGlovoEAR/target/liberty/wlp/
+java.home = C:\Users\wnirm\Downloads\eclipse-jee-2021-09-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149\jre
+java.version = 16.0.2
+java.runtime = OpenJDK Runtime Environment (16.0.2+7-67)
+os = Windows 10 (10.0; amd64) (it_IT)
+process = 7440@LAPTOP-R8CU1K9I
+********************************************************************************
+[03/11/21, 08:47:31:029 CET] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: Il server defaultServer è stato avviato.
+[03/11/21, 08:47:31:493 CET] 00000019 com.ibm.ws.config.xml.internal.ServerXMLConfiguration        A CWWKG0093A: Elaborazione risorsa di drop-in di configurazione: C:\Users\wnirm\eclipse-workspace\PcGlovo\PcGlovoEAR\target\liberty\wlp\usr\servers\defaultServer\configDropins\overrides\liberty-plugin-variable-config.xml
+[03/11/21, 08:47:31:628 CET] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: Kernel avviato dopo 0,81 secondi
+[03/11/21, 08:47:31:641 CET] 00000024 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Aggiornamento funzioni avviato.
+[03/11/21, 08:47:32:046 CET] 00000019 com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Monitoraggio di dropins per rilevare eventuali applicazioni.
+[03/11/21, 08:47:32:205 CET] 0000002c com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Avvio dell'applicazione PcGlovoEAR.
+[03/11/21, 08:47:32:206 CET] 0000002c bm.ws.app.manager.ear.internal.EARDeployedAppInfoFactoryImpl I CWWKZ0134I: L'applicazione PcGlovoEAR sta utilizzando la definizione applicazione debole all'ubicazione C:\Users\wnirm\eclipse-workspace\PcGlovo\PcGlovoEAR\target\liberty\wlp\usr\servers\defaultServer\dropins\PcGlovoEAR.ear.xml.
+[03/11/21, 08:47:33:149 CET] 0000002c com.ibm.ws.session.WASSessionCore                            I SESN8501I: Il gestore sessioni non ha trovato una ubicazione di storage persistente; gli oggetti HttpSession sono memorizzati nella memoria del server delle applicazioni locale.
+[03/11/21, 08:47:33:162 CET] 0000002c com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: caricamento del modulo web in corso: PcGlovoFE.
+[03/11/21, 08:47:33:165 CET] 0000002c com.ibm.ws.webcontainer                                      I SRVE0250I: Il modulo Web PcGlovoFE è stato collegato a default_host.
+[03/11/21, 08:47:33:166 CET] 0000002c com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Applicazione Web disponibile (default_host): http://localhost:9080/PcGlovoFE/
+[03/11/21, 08:47:33:400 CET] 00000027 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Verrà creato un nuovo contesto di sessione per la chiave dell'applicazione default_host/PcGlovoFE
+[03/11/21, 08:47:33:406 CET] 00000027 com.ibm.ws.util                                              I SESN0172I: Il gestore sessione utilizza l'implementazione SecureRandom predefinita Java per la generazione dell'ID sessione.
+[03/11/21, 08:47:33:428 CET] 00000026 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: È stato generato automaticamente un file di configurazione per un plugin server web per questo server in C:\Users\wnirm\eclipse-workspace\PcGlovo\PcGlovoEAR\target\liberty\wlp\usr\servers\defaultServer\logs\state\plugin-cfg.xml.
+[03/11/21, 08:47:33:548 CET] 00000027 com.ibm.ws.webcontainer.webapp                               I SRVE0292I: Messaggio servlet - [PcGlovoFE]:.No Spring WebApplicationInitializer types detected on classpath
+[03/11/21, 08:47:33:549 CET] 00000027 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: Applicazione PcGlovoEAR avviata in 1,344 secondi.
+[03/11/21, 08:47:33:560 CET] 00000024 com.ibm.ws.tcpchannel.internal.TCPPort                       I CWWKO0219I: Il canale TCP defaultHttpEndpoint è stato avviato ed ora è in ascolto delle richieste sull'host 127.0.0.1  (IPv4: 127.0.0.1) porta 9080.
+[03/11/21, 08:47:33:574 CET] 00000024 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: Il server ha installato le seguenti funzioni: [el-3.0, jsp-2.3, servlet-3.1].
+[03/11/21, 08:47:33:575 CET] 00000024 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Aggiornamento funzioni completato in 1,947 secondi.
+[03/11/21, 08:47:33:575 CET] 00000024 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: Il server defaultServer è pronto per "un pianeta più intelligente". Server defaultServer avviato in 2,757 secondi.
